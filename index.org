@@ -12,7 +12,8 @@ Should all projects (and management performance measures) use a corporate-wide W
 
 -  The effects of being a conglomerate on financial analysis.
 -  **Investment decision is independent of the financing decision.**
--  "A single hurdle rate may deprive an **unprofitable** division....." (page 233)
+-  "A single hurdle rate may deprive an **unprofitable** division....." (page 223)
+-  The human element: pay tied to the hurdle rate.
 
 * Weighted-Average Cost of Capital (WACC)
 
@@ -34,11 +35,17 @@ Otherwise we can get an estimate (from a bank or by looking at a similar =pure p
 
 Say there is a company with two divisions. 
 
--  The first division is a risky new social network. It has a 20% cost of capital. 
--  The second is a very safe railroad, which has a 5% cost of capital.
+-  The first division is a risky new social network. It has a 20% cost of capital. Higher expected return. 
+-  The second is a very safe railroad, which has a 5% cost of capital. Lower expected return.
 
 Both division are the same size, so the total firm cost of capital is 12.5%. 
 
-Now, say each division is considering a new project.  Which division is more likely to accept the project?  Which is more likely to reject?
+Now, say each division is considering a new project. **If each division uses the corporate-wide hurdle rate**, which division is more likely to accept the project?  Which is more likely to reject?
 
 Consider what happens in the limit as each division considers more projects.  What will the firm ultimately become?
+
+
+* WACC Calcultion
+  
+1.  What is each divisions capital structure?
+2.  What is each divisions beta?

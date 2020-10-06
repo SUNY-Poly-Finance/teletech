@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-10-06 Tue 17:54 -->
+<!-- 2020-10-06 Tue 19:41 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Teletech</title>
@@ -240,14 +240,15 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orge6906a2">1. Discussion</a></li>
-<li><a href="#orgaf4ff9b">2. Weighted-Average Cost of Capital (WACC)</a>
+<li><a href="#orge539608">1. Discussion</a></li>
+<li><a href="#orgc50cadb">2. Weighted-Average Cost of Capital (WACC)</a>
 <ul>
-<li><a href="#org5f5cb4b">2.1. Cost of Equity for Divisions</a></li>
-<li><a href="#orgab78cda">2.2. Cost of Debt for Divisions</a></li>
+<li><a href="#org976379c">2.1. Cost of Equity for Divisions</a></li>
+<li><a href="#org601f6ae">2.2. Cost of Debt for Divisions</a></li>
 </ul>
 </li>
-<li><a href="#org0bd6082">3. Thought Experiment</a></li>
+<li><a href="#org012c2d9">3. Thought Experiment</a></li>
+<li><a href="#org6147e21">4. WACC Calcultion</a></li>
 </ul>
 </div>
 </div>
@@ -260,27 +261,28 @@ Should all projects (and management performance measures) use a corporate-wide W
 <li>The effect of using the wrong hurdle rate is misallocation of resources&#x2014;poor capital budgeting decisions.</li>
 </ul>
 
-<div id="outline-container-orge6906a2" class="outline-2">
-<h2 id="orge6906a2"><span class="section-number-2">1</span> Discussion</h2>
+<div id="outline-container-orge539608" class="outline-2">
+<h2 id="orge539608"><span class="section-number-2">1</span> Discussion</h2>
 <div class="outline-text-2" id="text-1">
 <ul class="org-ul">
 <li>The effects of being a conglomerate on financial analysis.</li>
 <li><b><b>Investment decision is independent of the financing decision.</b></b></li>
-<li>"A single hurdle rate may deprive an <b><b>unprofitable</b></b> division&#x2026;.." (page 233)</li>
+<li>"A single hurdle rate may deprive an <b><b>unprofitable</b></b> division&#x2026;.." (page 223)</li>
+<li>The human element: pay tied to the hurdle rate.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgaf4ff9b" class="outline-2">
-<h2 id="orgaf4ff9b"><span class="section-number-2">2</span> Weighted-Average Cost of Capital (WACC)</h2>
+<div id="outline-container-orgc50cadb" class="outline-2">
+<h2 id="orgc50cadb"><span class="section-number-2">2</span> Weighted-Average Cost of Capital (WACC)</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 [See this presentation](<a href="https://www.5minutefinance.org/concepts/the-weighted-average-cost-of-capital">https://www.5minutefinance.org/concepts/the-weighted-average-cost-of-capital</a>)
 </p>
 </div>
 
-<div id="outline-container-org5f5cb4b" class="outline-3">
-<h3 id="org5f5cb4b"><span class="section-number-3">2.1</span> Cost of Equity for Divisions</h3>
+<div id="outline-container-org976379c" class="outline-3">
+<h3 id="org976379c"><span class="section-number-3">2.1</span> Cost of Equity for Divisions</h3>
 <div class="outline-text-3" id="text-2-1">
 <p>
 Divisions of a firm can't offer equity, so how can we get the divisions beta coefficient?  We can look for publicly-traded <code>pure plays</code> and use their cost of equity.
@@ -288,8 +290,8 @@ Divisions of a firm can't offer equity, so how can we get the divisions beta coe
 </div>
 </div>
 
-<div id="outline-container-orgab78cda" class="outline-3">
-<h3 id="orgab78cda"><span class="section-number-3">2.2</span> Cost of Debt for Divisions</h3>
+<div id="outline-container-org601f6ae" class="outline-3">
+<h3 id="org601f6ae"><span class="section-number-3">2.2</span> Cost of Debt for Divisions</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 Divisions of a firm may or may not be able to issue their own debt.  If they do, and we can get a market price, we can use that as firm cost of debt.  
@@ -304,16 +306,16 @@ Otherwise we can get an estimate (from a bank or by looking at a similar <code>p
 
 
 
-<div id="outline-container-org0bd6082" class="outline-2">
-<h2 id="org0bd6082"><span class="section-number-2">3</span> Thought Experiment</h2>
+<div id="outline-container-org012c2d9" class="outline-2">
+<h2 id="org012c2d9"><span class="section-number-2">3</span> Thought Experiment</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 Say there is a company with two divisions. 
 </p>
 
 <ul class="org-ul">
-<li>The first division is a risky new social network. It has a 20% cost of capital.</li>
-<li>The second is a very safe railroad, which has a 5% cost of capital.</li>
+<li>The first division is a risky new social network. It has a 20% cost of capital. Higher expected return.</li>
+<li>The second is a very safe railroad, which has a 5% cost of capital. Lower expected return.</li>
 </ul>
 
 <p>
@@ -321,7 +323,7 @@ Both division are the same size, so the total firm cost of capital is 12.5%.
 </p>
 
 <p>
-Now, say each division is considering a new project.  Which division is more likely to accept the project?  Which is more likely to reject?
+Now, say each division is considering a new project. <b><b>If each division uses the corporate-wide hurdle rate</b></b>, which division is more likely to accept the project?  Which is more likely to reject?
 </p>
 
 <p>
@@ -329,10 +331,21 @@ Consider what happens in the limit as each division considers more projects.  Wh
 </p>
 </div>
 </div>
+
+
+<div id="outline-container-org6147e21" class="outline-2">
+<h2 id="org6147e21"><span class="section-number-2">4</span> WACC Calcultion</h2>
+<div class="outline-text-2" id="text-4">
+<ol class="org-ol">
+<li>What is each divisions capital structure?</li>
+<li>What is each divisions beta?</li>
+</ol>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Matt Brigida, Ph.D.</p>
-<p class="date">Created: 2020-10-06 Tue 17:54</p>
+<p class="date">Created: 2020-10-06 Tue 19:41</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
