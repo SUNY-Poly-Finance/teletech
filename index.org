@@ -1,0 +1,39 @@
+#+TITLE: Teletech
+#+author: Matt Brigida, Ph.D.
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
+
+
+Should all projects (and management performance measures) use a corporate-wide WACC?
+
+-  Manager pay is tied to the hurdle rate though the EVA calculation.  This makes managers argue for their vested interests.
+-  The effect of using the wrong hurdle rate is misallocation of resources---poor capital budgeting decisions.
+
+
+* Weighted-Average Cost of Capital (WACC)
+
+See this presentation
+
+** Cost of Equity for Divisions
+
+Divisions of a firm can't offer equity, so how can we get the divisions beta coefficient?  We can look for publicly-traded =pure plays= and use their cost of equity.
+
+** Cost of Debt for Divisions
+   
+Divisions of a firm may or may not be able to issue their own debt.  If they do, and we can get a market price, we can use that as firm cost of debt.  
+
+Otherwise we can get an estimate (from a bank or by looking at a similar =pure play=) of the debt's rating, and use the cost of debt for that rating.
+
+
+
+* Thought Experiment
+
+Say there is a company with two divisions. 
+
+-  The first division is a risky new social network. It has a 20% cost of capital. 
+-  The second is a very safe railroad, which has a 5% cost of capital.
+
+Both division are the same size, so the total firm cost of capital is 12.5%. 
+
+Now, say each division is considering a new project.  Which division is more likely to accept the project?  Which is more likely to reject?
+
+Consider what happens in the limit as each division considers more projects.  What will the firm ultimately become?
