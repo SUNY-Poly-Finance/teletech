@@ -12,7 +12,7 @@ Should all projects (and management performance measures) use a corporate-wide W
 
 -  The effects of being a conglomerate on financial analysis.
 -  **Investment decision is independent of the financing decision.**
--  "All money is green."
+-  "A single hurdle rate may deprive an **unprofitable** division....." (page 233)
 
 * Weighted-Average Cost of Capital (WACC)
 
