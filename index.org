@@ -16,7 +16,7 @@ Should all projects (and management performance measures) use a corporate-wide W
 
 * Weighted-Average Cost of Capital (WACC)
 
-See this presentation
+[See this presentation](https://www.5minutefinance.org/concepts/the-weighted-average-cost-of-capital)
 
 ** Cost of Equity for Divisions
 
