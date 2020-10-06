@@ -8,6 +8,11 @@ Should all projects (and management performance measures) use a corporate-wide W
 -  Manager pay is tied to the hurdle rate though the EVA calculation.  This makes managers argue for their vested interests.
 -  The effect of using the wrong hurdle rate is misallocation of resources---poor capital budgeting decisions.
 
+* Discussion
+
+-  The effects of being a conglomerate on financial analysis.
+-  **Investment decision is independent of the financing decision.**
+-  "All money is green."
 
 * Weighted-Average Cost of Capital (WACC)
 
