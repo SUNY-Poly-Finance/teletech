@@ -1,6 +1,6 @@
 #+TITLE: Teletech
 #+author: Matt Brigida, Ph.D.
-#+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 
 
 Should all projects (and management performance measures) use a corporate-wide WACC?
@@ -17,7 +17,7 @@ Should all projects (and management performance measures) use a corporate-wide W
 
 * Weighted-Average Cost of Capital (WACC)
 
-[See this presentation](https://www.5minutefinance.org/concepts/the-weighted-average-cost-of-capital)
+[[https://financial-education.github.io/wacc/][See this presentation]]
 
 ** Cost of Equity for Divisions
 
